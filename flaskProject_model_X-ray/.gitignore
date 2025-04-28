@@ -1,0 +1,37 @@
+# Môi trường ảo
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File tạm hoặc log
+*.log
+
+# Biến môi trường
+.env
+*.env
+
+# File database
+*.sqlite3
+*.db
+
+# Thư mục uploads nếu có
+uploads/
+media/
+
+# Thư mục build (nếu build Flask app)
+build/
+dist/
+*.egg-info/
+
+# IDE config
+.vscode/
+.idea/
+*.swp
+
+# MacOS file
+.DS_Store
